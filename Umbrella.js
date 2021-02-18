@@ -10,7 +10,7 @@ class man{
     this.y = y;
     this.r = r;
 
-    this.image = loadImage("Walking Frame/walking_1.png");
+    this.image = loadImage("walking_1.png");
     
 
     this.body = Bodies.circle(this.x,this.y,this.r,options_man);
